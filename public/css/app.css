@@ -1,0 +1,135 @@
+body {
+    background: rgba(255, 0, 0, 0.678);
+    padding: 0 16px;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    margin: 0;
+    font-family: 'Happy Monkey', cursive;
+}
+
+h1 {
+    color: #38ecec;
+    font-size: 36px;
+    margin: 50px auto 0 auto;
+}
+
+p {
+    color: rgb(24, 23, 23);
+    font-size: 26px;
+}
+
+.dati {
+    text-decoration: underline;
+    color: #448ab9;
+}
+
+.dati:hover {
+    color: #0ae6e6;
+}
+
+a {
+    color: #0ae6e6 !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.navbar {
+    font-size: 24px;
+    text-align: center;
+}
+
+.py {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+form {
+    text-align: center;
+    position: relative;
+    width: 480px;
+    margin: 30px auto 20px auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px rgb(49, 49, 49);
+}
+
+form:hover {
+    transition: all 0.6s;
+    box-shadow: 4px 2px 5px rgb(41, 40, 40);
+}
+
+form input {
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+    text-align: center;
+    background-color: #38ecec81;
+    border-radius: 5%;
+}
+
+form button {
+    position: absolute;
+    right: 18px;
+    bottom: -18px;
+    background: #13aef5;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+    font-size: 20px;
+}
+
+.display-none {
+    display: none;
+}
+
+.logo {
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes logo {
+    0% {
+        color: rgb(255, 0, 200);
+    }
+    25% {
+        color: rgb(231, 231, 76);
+    }
+    50% {
+        color: rgb(116, 195, 231);
+    }
+    100% {
+        color: rgb(22, 199, 22);
+    }
+}
+
+.baloons-1 {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    bottom: 0%;
+    left: 10%;
+}
+
+.baloons-2 {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    bottom: 0%;
+    right: 10%;
+}
+
+.homelink {
+    font-size: 30px !important;
+}

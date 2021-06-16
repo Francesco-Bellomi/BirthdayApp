@@ -1,0 +1,50 @@
+h1,
+h2,
+h3 {
+    font-family: 'Happy Monkey', cursive;
+}
+
+.navbar {
+    background-color: transparent;
+    height: 100px;
+    position: relative;
+    width: 100vw;
+}
+
+body {
+    text-align: center;
+    margin: 0%;
+    background-color: whitesmoke;
+}
+
+.logo {
+    letter-spacing: 10px;
+    margin-top: 50px;
+}
+
+#logo {
+    font-size: 36px;
+    color: blue;
+    animation: color-me-in 6s infinite;
+}
+
+@keyframes color-me-in {
+    0% {
+        color: red;
+    }
+    20% {
+        color: rgb(214, 214, 16);
+    }
+    40% {
+        color: orange;
+    }
+    60% {
+        color: rgb(236, 167, 178);
+    }
+    80% {
+        color: rgb(196, 21, 172);
+    }
+    100% {
+        color: rgb(77, 212, 156);
+    }
+}
